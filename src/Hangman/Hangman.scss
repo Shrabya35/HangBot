@@ -1,0 +1,102 @@
+.flex {
+    display: flex;
+    align-items: center
+}
+
+.main {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 5rem;
+    .title-container {
+        text-align: center;
+        .title {
+            font-size: 3rem;
+            font-weight: 600;
+            color: #4f4634;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+    }
+    .container {
+        width: 100%;
+        .left {
+            padding: 2rem;
+            flex: 50%;
+            img {
+                width: 15rem;
+                height: 20rem;
+            }
+        }
+        .right {
+            padding: 2rem;
+            flex: 50%;
+            .right-show {
+                flex-direction: column;
+                gap: 2rem;
+                .guess {
+                    text-align: center;
+                    color: peru;
+                    span {
+                        font-size: 2.5rem;
+                        letter-spacing: .5rem;
+                    }
+                }
+                .desc {
+                    text-align: center;
+                    span {
+                        color: green;
+                    }
+                }
+                .incorrect span {
+                    color: red;
+                }
+                .letters-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .letters button {
+                        margin: .5rem;
+                        padding: .5rem;
+                        font-size: 1rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .right-hide {
+                flex-direction: column;
+                gap: 2rem;
+                .hide-title {
+                    color: #282b46;
+                }
+                .hide-word {
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                    .hide-span {
+                        color: blue;
+                    }
+                }
+                .reset-btn {
+                    padding: 1rem 2rem;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    color: white;
+                    border-radius: 4rem;
+                    background: #a69369;
+                    box-shadow: 3px 3px 8px black;
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:770px) {
+    .main {
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+    .container {
+        flex-direction: column;
+    }
+}
