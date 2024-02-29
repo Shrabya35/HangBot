@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/HangBot/static/css/main.89a23858.css",
+    "main.js": "/HangBot/static/js/main.3f59e239.js",
+    "static/js/453.035fcce8.chunk.js": "/HangBot/static/js/453.035fcce8.chunk.js",
+    "static/media/asset6.png": "/HangBot/static/media/asset6.7c09f623f14fda85e19c.png",
+    "static/media/asset5.png": "/HangBot/static/media/asset5.e3b2829b7b4ca97ccd9c.png",
+    "static/media/asset4.png": "/HangBot/static/media/asset4.62a0bd860115e0a8408d.png",
+    "static/media/asset3.png": "/HangBot/static/media/asset3.963d86ebfb8440046c5d.png",
+    "static/media/asset2.png": "/HangBot/static/media/asset2.8bf50f90803f430271c6.png",
+    "static/media/asset1.png": "/HangBot/static/media/asset1.2d884ecb4fe109475e6e.png",
+    "index.html": "/HangBot/index.html",
+    "main.89a23858.css.map": "/HangBot/static/css/main.89a23858.css.map",
+    "main.3f59e239.js.map": "/HangBot/static/js/main.3f59e239.js.map",
+    "453.035fcce8.chunk.js.map": "/HangBot/static/js/453.035fcce8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89a23858.css",
+    "static/js/main.3f59e239.js"
+  ]
+}
