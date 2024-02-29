@@ -223,6 +223,7 @@ const Hangman = () => {
       }));
       setCorrect(correct + 1);
       if (!updatedBlankWord.includes("_")) {
+        overRef.current.innerHTML = "<h1>You Won</h1>";
         setHide(true);
       }
     } else {
